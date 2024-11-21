@@ -107,11 +107,16 @@
       v1.0.0:
       • Initial release
     </PackageReleaseNotes>
-    <PackageIconUrl>https://raw.githubusercontent.com/pieceofsummer/Hangfire.Console/master/hangfire.console.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/pieceofsummer/Hangfire.Console/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIcon>hangfire.console.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pieceofsummer/Hangfire.Console</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../hangfire.console.png" Pack="true" PackagePath="" Visible="false" />
+    <None Include="../../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\*" />
   </ItemGroup>
